@@ -39,33 +39,3 @@ a {
   text-decoration: none;
 }
 
-.contact {
-  position: fixed;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  font-family: Consolas, monospace;
-  color: #3f3e37;
-  text-align: center;
-}
-
-.contact-name {
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.contact-email {
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  opacity: 0.7;
-}
-
-.contact-email:hover {
-  opacity: 1;
-}
